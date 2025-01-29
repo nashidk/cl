@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Counter</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <input type="file" id="fileInput" accept=".xls,.xlsx">
+  <button id="chooseFileBtn">
+    Choose File
+  </button>
+  <button id="printBtn" class="hidden">Print Data</button>
+
+  <div id="tableContainer"></div>
+  <pre class="counter"></pre>
+
+  <script src="script.js"></script>
+  <script src="calc.js"></script>
+</body>
+
+</html>
