@@ -1,8 +1,7 @@
 
 
 let halfkg = (title) => {
-
-  return title, title.toLowerCase().includes("half")
+  return title.toLowerCase().includes("half")
 }
 
 function readCalib(params) {
@@ -27,7 +26,9 @@ function getRealStock(textData, currentStock) {
     splitLine = line.split(",");
     stockList.push(splitLine[splitLine.length - 1]);
   }
+
   findCounter(currentStock, stockList);
+
 }
 
 function findCounter(currentStock, realStock) {
@@ -35,8 +36,7 @@ function findCounter(currentStock, realStock) {
   currentStock = makeIntList(currentStock)
   realStock = makeIntList(realStock);
 
-  let one = {};
-  let half = {};
+  let one = {}, half = {};
 
   for (let i = 0; i < currentStock.length; i++) {
     let counter = realStock[i] - currentStock[i]

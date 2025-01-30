@@ -1,6 +1,9 @@
 
 
 let names;
+const selector = document.querySelector('.dateSelector');
+
+
 
 
 // Wait for DOM to load
@@ -14,56 +17,71 @@ document.addEventListener('DOMContentLoaded', () => {
   chooseFileBtn.addEventListener('click', () => fileInput.click());
   printBtn.addEventListener('click', () => window.print());
   fileInput.addEventListener('change', handleFile);
-
-  function handleFile(e) {
-    const file = e.target.files[0];
-    if (!file) return;
-
-    const reader = new FileReader();
-    reader.onload = function (e) {
-      let sheet = currentSheet(e);
-
-      // const firstSheet = workbook.Sheets[workbook.SheetNames[0]];
-      // const html = XLSX.utils.sheet_to_html(firstSheet);
-      // document.getElementById('tableContainer').innerHTML = html;
-      // printBtn.classList.remove('hidden');
-
-      names = rangeValues(sheet, 'B2:B115');
-      currentStock = rangeValues(sheet, 'AA2:AA115');
-
-      fetch('caliberate.txt')
-        .then(response => response.text())  // Convert response to text
-        .then(data => {
-          // console.log(data); // Output the file content
-          getRealStock(data, currentStock);
-
-        })
-        .catch(error => console.error('Error reading the file:', error));
-
-    }
-
-    reader.onerror = function () {
-      alert('Error reading file');
-    };
-
-    reader.readAsArrayBuffer(file);
-
-
-  };
-
-
-
-
-
-
+  selector.addEventListener('change', handleDate);
 
 });
 
+
+function handleFile(e) {
+  const file = e.target.files[0];
+  if (!file) return;
+
+  const reader = new FileReader();
+  reader.onload = function (e) {
+    let sheet = currentSheet(e);
+
+    // const firstSheet = workbook.Sheets[workbook.SheetNames[0]];
+    // const html = XLSX.utils.sheet_to_html(firstSheet);
+    // document.getElementById('tableContainer').innerHTML = html;
+    // printBtn.classList.remove('hidden');
+    start(sheet)
+
+  }
+
+  reader.onerror = function () {
+    alert('Error reading file');
+  };
+
+  reader.readAsArrayBuffer(file);
+
+
+};
+
+function handleDate(e) {
+  const data = new Uint8Array(e.target.result);
+  const workbook = XLSX.read(data, { type: 'array' });
+  start(workbook.Sheets[selector.value]);
+}
+
+
+function start(sheet) {
+
+  names = rangeValues(sheet, 'B2:B115');
+  currentStock = rangeValues(sheet, 'AA2:AA115');
+
+
+
+  fetch('caliberate.txt')
+    .then(response => response.text())  // Convert response to text
+    .then(data => {
+      // console.log(data); // Output the file content
+      getRealStock(data, currentStock);
+
+    })
+    .catch(error => console.error('Error reading the file:', error));
+
+}
 function currentSheet(e) {
   const data = new Uint8Array(e.target.result);
   const workbook = XLSX.read(data, { type: 'array' });
   const today = new Date();
 
+  workbook.SheetNames.forEach(element => {
+    const option = document.createElement('option');
+    option.value = element;
+    option.text = element;
+    selector.appendChild(option);
+  });
 
   for (sheetName of workbook.SheetNames) {
     const day = today.getDate().toString();
@@ -72,10 +90,12 @@ function currentSheet(e) {
 
     if (sheetDay == day) {
       console.log(sheetName);
+      selector.value = sheetName;
       return workbook.Sheets[sheetName];
     }
   }
 }
+
 
 function rangeValues(sheet, rangeParam) {
 

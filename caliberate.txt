@@ -18,7 +18,7 @@ Chocolate butterscotch cake Half kg,0
 Chocolate caramel cake 1kg,0
 Chocolate caramel cake Half kg,0
 Chocolate truffle 1kg,2
-Chocolate truffle Half kg,2
+Chocolate truffle Half kg,3
 Choconut cake 1kg,0
 Choconut cake Half kg,1
 Dark vancho 1kg,1
