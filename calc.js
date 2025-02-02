@@ -40,6 +40,10 @@ function findCounter(currentStock, realStock) {
 
   for (let i = 0; i < currentStock.length; i++) {
     let counter = realStock[i] - currentStock[i]
+    console.log(name[i]);
+    console.log("Real Stock", realStock[i], "current stock", currentStock[i]);
+
+
     if (counter > 0) {
       if (halfkg(names[i])) {
         half[names[i]] = counter;

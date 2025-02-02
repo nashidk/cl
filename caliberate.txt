@@ -24,7 +24,7 @@ Choconut cake Half kg,1
 Dark vancho 1kg,1
 Dark vancho Half kg,1
 Death by chocolate 1kg,1
-Death by chocolate Half kg,1
+Death by chocolate Half kg,2
 DREAM CAKE  LARG,0
 DREAM CAKE MEDIUM,0
 DREAM CAKE SMALL,0
@@ -56,7 +56,7 @@ MILKY VANCHO HALF KG,0
 MIRROR GLAZE 1KG,0
 MIRROR GLAZE HALF KG,0
 Nutty bubble cake 1kg,1
-Nutty bubble cake Half kg,1
+Nutty bubble cake Half kg,2
 NUTTY NUTTELLA 1KG,0
 OREO CAKE 1KG,0
 OREO CAKE HALF KG,0
@@ -93,7 +93,7 @@ White forest 1kg,1
 White forest Half kg,2
 White truffle cake 1kg,0
 White truffle cake Half kg,1
-White vancho 1kg,2
+White vancho 1kg,3
 White vancho Half kg,4
 GALAXY RS.90,0
 DIARY MILK FAMILYPACK RS.130,0
