@@ -2,10 +2,10 @@ Australian milky cake 1kg,1
 AUSTRALIAN MILKY HALF KG,2
 BELGIUM CHOCLATE 1KG,0
 BELGIUM CHOCLATE HALF KG,0
-Black forest 1kg,2
-Black forest Half kg,3
+Black forest 1kg,1
+Black forest Half kg,2
 Blueberry cake 1kg,1
-Blueberry cake Half kg,1
+Blueberry cake Half kg,2
 BUTTERSCOTCH 1KG,0
 BUTTERSCOTCH HALF KG,0
 Cheese cake 1kg,0
@@ -17,8 +17,8 @@ Chocolate butterscotch cake 1kg,0
 Chocolate butterscotch cake Half kg,0
 Chocolate caramel cake 1kg,0
 Chocolate caramel cake Half kg,0
-Chocolate truffle 1kg,2
-Chocolate truffle Half kg,3
+Chocolate truffle 1kg,1
+Chocolate truffle Half kg,2
 Choconut cake 1kg,0
 Choconut cake Half kg,1
 Dark vancho 1kg,1

@@ -4,12 +4,12 @@ let halfkg = (title) => {
   return title.toLowerCase().includes("half")
 }
 
-function readCalib(params) {
-  fetch('caliberate.txt')
+function readCalib(currentStock) {
+  fetch('kallai.txt')
     .then(response => response.text())  // Convert response to text
     .then(data => {
       // console.log(data); // Output the file content
-      getRealStock(data);
+      getRealStock(data, currentStock);
     })
     .catch(error => console.error('Error reading the file:', error));
 

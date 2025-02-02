@@ -3,6 +3,7 @@
 let names;
 const selector = document.querySelector('.dateSelector');
 
+// toast("Please select the sheet for today's date");
 
 
 
@@ -59,18 +60,17 @@ function start(sheet) {
   names = rangeValues(sheet, 'B2:B115');
   currentStock = rangeValues(sheet, 'AA2:AA115');
 
+  // fetch('kallai.txt')
+  //   .then(response => response.text())  // Convert response to text
+  //   .then(data => {
+  //     // console.log(data); // Output the file content
+  //     getRealStock(data, currentStock);
 
-
-  fetch('caliberate.txt')
-    .then(response => response.text())  // Convert response to text
-    .then(data => {
-      // console.log(data); // Output the file content
-      getRealStock(data, currentStock);
-
-    })
-    .catch(error => console.error('Error reading the file:', error));
-
+  //   })
+  //   .catch(error => console.error('Error reading the file:', error));
+  readCalib(currentStock);
 }
+
 function currentSheet(e) {
   const data = new Uint8Array(e.target.result);
   const workbook = XLSX.read(data, { type: 'array' });
@@ -94,6 +94,9 @@ function currentSheet(e) {
       return workbook.Sheets[sheetName];
     }
   }
+
+  return workbook.Sheets[workbook.SheetNames[0]];
+  toast("No sheet found for today's date");
 }
 
 
@@ -115,3 +118,21 @@ function rangeValues(sheet, rangeParam) {
   return values;
 
 }
+
+// function toast(message) {
+//   const toastContainer = document.createElement('div');
+//   toastContainer.className = 'toast';
+//   toastContainer.textContent = message;
+//   document.body.appendChild(toastContainer);
+
+//   setTimeout(() => {
+//     toastContainer.classList.add('show');
+//   }, 100);
+
+//   setTimeout(() => {
+//     toastContainer.classList.remove('show');
+//     setTimeout(() => {
+//       document.body.removeChild(toastContainer);
+//     }, 300);
+//   }, 3000);
+// }
