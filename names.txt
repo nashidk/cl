@@ -1,0 +1,227 @@
+const cakeNames = [
+  "Australian milky",
+  "AUSTRALIAN MILKY",
+  "BELGIUM CHOCLATE",
+  "BELGIUM CHOCLATE",
+  "Black forest",
+  "Black forest",
+  "Blueberry cake",
+  "Blueberry cake",
+  "BUTTERSCOTCH",
+  "BUTTERSCOTCH",
+  "Cheese cake",
+  "Choco Almond cake",
+  "Choco Almond cake",
+  "Choco reddies cake",
+  "Choco reddies cake",
+  "Chocolate butterscotch cake",
+  "Chocolate butterscotch cake",
+  "Chocolate caramel cake",
+  "Chocolate caramel cake",
+  "Chocolate truffle",
+  "Chocolate truffle",
+  "Choconut cake",
+  "Choconut cake",
+  "Dark vancho",
+  "Dark vancho",
+  "Death by chocolate",
+  "Death by chocolate",
+  "DREAM CAKE LARG",
+  "DREAM CAKE MEDIUM",
+  "DREAM CAKE SMALL",
+  "FERRERO",
+  "FRESH FRUIT",
+  "FRESH FRUIT",
+  "Fruit and nut cake",
+  "Fudge and nut cake",
+  "Full chocolate",
+  "Full chocolate",
+  "German forest cake",
+  "German forest cake",
+  "HONEY NUT",
+  "HONEY NUT",
+  "Irish coffee cake",
+  "Irish coffee cake",
+  "JACK FRUIT",
+  "JACK FRUIT",
+  "KITKAT",
+  "LOTUS BISCOUFF",
+  "Mango cake",
+  "Mango cake",
+  "MANGO GALAXY",
+  "MANGO GALAXY",
+  "MILKY FUDGE",
+  "MILKY FUDGE",
+  "MILKY VANCHO",
+  "MILKY VANCHO",
+  "MIRROR GLAZE",
+  "MIRROR GLAZE",
+  "Nutty bubble cake",
+  "Nutty bubble cake",
+  "NUTTY NUTTELLA",
+  "OREO CAKE",
+  "OREO CAKE",
+  "Pineapple vancho",
+  "Pineapple vancho",
+  "PISTHA NUT",
+  "PISTHACHIO",
+  "PISTHACHIO",
+  "PLUM CAKE",
+  "PRALAIN RED",
+  "PRALAIN RED",
+  "PURPLE VELVET",
+  "PURPLE VELVET",
+  "RAFFAELO",
+  "Rainbow cake",
+  "Red bee cake",
+  "Red bee cake",
+  "Red velvet cake",
+  "Red velvet cake",
+  "Redcho cake",
+  "Redcho cake",
+  "Royal pista nut",
+  "Royal pista nut",
+  "Royal truffle cake",
+  "ROYAL TRUFFLE",
+  "STRAWBERRY",
+  "STRAWBERRY",
+  "TENDER COCONUT",
+  "Truffle silky cake",
+  "Truffle silky cake",
+  "VANILA CAKE",
+  "VANILA CAKE",
+  "White forest",
+  "White forest",
+  "White truffle cake",
+  "White truffle cake",
+  "White vancho",
+  "White vancho",
+  "GALAXY RS.9",
+  "DIARY MILK FAMILYPACK RS.3",
+  "KITKAT RS7",
+  "DIARYMILK BITES RS.75",
+  "DIARY MILK HEARTBLUSH RS.335",
+  "GALAXY RS.8",
+  "GALAXY FRUIT NUT RS.8",
+  "DIARY MILK HAZELNUT RS.75",
+  "DIARY MILK SILK ROAST ALMOND RS.95",
+  "DIARY MILK SILK 8",
+  "DIARY MILK FRUIT AND NUT 95",
+  "CARAMEL CAKE",
+  "CARAMEL CAKE",
+  "FUDGE AND NUT"
+];
+
+Australian milky 
+AUSTRALIAN MILKY 
+BELGIUM CHOCLATE 
+BELGIUM CHOCLATE  
+Black forest 
+Black forest  
+Blueberry cake 
+Blueberry cake  
+BUTTERSCOTCH 
+BUTTERSCOTCH  
+Cheese cake 
+Choco Almond cake 
+Choco Almond cake  
+Choco reddies cake 
+Choco reddies cake  
+Chocolate butterscotch cake 
+Chocolate butterscotch cake  
+Chocolate caramel cake 
+Chocolate caramel cake  
+Chocolate truffle 
+Chocolate truffle  
+Choconut cake 
+Choconut cake  
+Dark vancho 
+Dark vancho  
+Death by chocolate 
+Death by chocolate  
+DREAM CAKE  LARG
+DREAM CAKE MEDIUM
+DREAM CAKE SMALL
+FERRERO 
+FRESH FRUIT 
+FRESH FRUIT  
+Fruit and nut cake 
+Fudge and nut cake 
+Full chocolate 
+Full chocolate  
+German forest cake 
+German forest cake  
+HONEY NUT 
+HONEY NUT  
+Irish coffee cake 
+Irish coffee cake  
+JACK FRUIT 
+JACK FRUIT  
+KITKAT 
+LOTUS BISCOUFF 
+Mango cake 
+Mango cake  
+MANGO GALAXY  
+MANGO GALAXY  
+MILKY FUDGE 
+MILKY FUDGE  
+MILKY VANCHO 
+MILKY VANCHO  
+MIRROR GLAZE 
+MIRROR GLAZE  
+Nutty bubble cake 
+Nutty bubble cake  
+NUTTY NUTTELLA 
+OREO CAKE 
+OREO CAKE  
+Pineapple vancho 
+Pineapple vancho  
+PISTHA NUT 
+PISTHACHIO 
+PISTHACHIO  
+PLUM CAKE
+PRALAIN RED 
+PRALAIN RED  
+PURPLE VELVET 
+PURPLE VELVET  
+RAFFAELO 
+Rainbow cake 
+Red bee cake 
+Red bee cake  
+Red velvet cake 
+Red velvet cake  
+Redcho cake 
+Redcho cake  
+Royal pista nut 
+Royal pista nut 
+Royal truffle cake 
+ROYAL TRUFFLE  
+STRAWBERRY  
+STRAWBERRY  
+TENDER COCONUT 
+Truffle silky cake 
+Truffle silky cake  
+VANILA CAKE 
+VANILA CAKE  
+White forest 
+White forest  
+White truffle cake 
+White truffle cake  
+White vancho
+White vancho
+GALAXY RS.9
+DIARY MILK FAMILYPACK RS.3
+KITKAT RS7
+DIARYMILK BITES RS.75
+DIARY MILK HEARTBLUSH RS.335
+GALAXY RS.8
+GALAXY FRUIT NUT RS.8
+DIARY MILK HAZELNUT RS.75
+DIARY MILK SILK ROAST ALMOND RS.95
+DIARY MILK SILK 8
+DIARY MILK  FRUIT AND NUT 95
+CARAMEL CAKE  
+CARAMEL CAKE  
+FUDGE AND NUT  
+
+

@@ -10,17 +10,22 @@
 
 <body>
 
-  <input type="file" id="fileInput" accept=".xls,.xlsx">
-  <button id="chooseFileBtn">
-    Choose File
-  </button>
+
+  <select class="branchSelector">
+    <option value="kallai">kallai</option>
+    <option value="kannancheri">kannancheri</option>
+  </select>
+
+  <input type="file" class="fileInput" accept=".xls,.xlsx">
+  <button class="fileBt"> Choose File </button>
   <select class="dateSelector"> </select>
   <button id="printBtn" class="hidden">Print Data</button>
 
   <div id="tableContainer"></div>
   <pre class="counter"></pre>
 
-  <div class="toast">Hi eeer sl f</div>
+  <button class="copyBt">Copy to Clipboard</button>
+
 
   <script src="script.js"></script>
   <script src="calc.js"></script>

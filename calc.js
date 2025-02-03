@@ -5,11 +5,13 @@ let halfkg = (title) => {
 }
 
 function readCalib(currentStock) {
-  fetch('kallai.txt')
+  fetch(`${branchSelector.value}.txt`)
     .then(response => response.text())  // Convert response to text
     .then(data => {
       // console.log(data); // Output the file content
       getRealStock(data, currentStock);
+      console.log(data);
+
     })
     .catch(error => console.error('Error reading the file:', error));
 
@@ -40,12 +42,12 @@ function findCounter(currentStock, realStock) {
 
   for (let i = 0; i < currentStock.length; i++) {
     let counter = realStock[i] - currentStock[i]
-    console.log(name[i]);
-    console.log("Real Stock", realStock[i], "current stock", currentStock[i]);
+    // console.log(name[i]);
+    // console.log("Real Stock", realStock[i], "current stock", currentStock[i]);
 
 
     if (counter > 0) {
-      if (halfkg(names[i])) {
+      if (halfkg(fullNames[i])) {
         half[names[i]] = counter;
       } else {
         one[names[i]] = counter;

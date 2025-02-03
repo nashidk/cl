@@ -1,0 +1,114 @@
+Australian milky cake 1kg,4
+AUSTRALIAN MILKY HALF KG,2
+BELGIUM CHOCLATE 1KG,0
+BELGIUM CHOCLATE HALF KG,0
+Black forest 1kg,1
+Black forest Half kg,2
+Blueberry cake 1kg,1
+Blueberry cake Half kg,2
+BUTTERSCOTCH 1KG,0
+BUTTERSCOTCH HALF KG,0
+Cheese cake 1kg,0
+Choco Almond cake 1kg,1
+Choco Almond cake Half kg,1
+Choco reddies cake 1kg,1
+Choco reddies cake Half kg,1
+Chocolate butterscotch cake 1kg,0
+Chocolate butterscotch cake Half kg,0
+Chocolate caramel cake 1kg,0
+Chocolate caramel cake Half kg,0
+Chocolate truffle 1kg,1
+Chocolate truffle Half kg,2
+Choconut cake 1kg,0
+Choconut cake Half kg,1
+Dark vancho 1kg,1
+Dark vancho Half kg,1
+Death by chocolate 1kg,1
+Death by chocolate Half kg,2
+DREAM CAKE  LARG,0
+DREAM CAKE MEDIUM,0
+DREAM CAKE SMALL,0
+FERRERO 1KG,0
+FRESH FRUIT 1KG,0
+FRESH FRUIT HALF KG,0
+Fruit and nut cake 1kg,0
+Fudge and nut cake 1kg,0
+Full chocolate 1kg,1
+Full chocolate Half kg,1
+German forest cake 1kg,0
+German forest cake Half kg,0
+HONEY NUT 1KG,1
+HONEY NUT HALF KG,1
+Irish coffee cake 1kg,0
+Irish coffee cake Half kg,1
+JACK FRUIT 1KG,0
+JACK FRUIT HALF KG,0
+KITKAT 1KG,0
+LOTUS BISCOUFF 1KG,0
+Mango cake 1kg,1
+Mango cake Half kg,1
+MANGO GALAXY 1KG ,0
+MANGO GALAXY HALF KG,1
+MILKY FUDGE 1KG,0
+MILKY FUDGE HALF KG,0
+MILKY VANCHO 1KG,0
+MILKY VANCHO HALF KG,0
+MIRROR GLAZE 1KG,0
+MIRROR GLAZE HALF KG,0
+Nutty bubble cake 1kg,1
+Nutty bubble cake Half kg,2
+NUTTY NUTTELLA 1KG,0
+OREO CAKE 1KG,0
+OREO CAKE HALF KG,0
+Pineapple vancho 1kg,0
+Pineapple vancho Half kg,0
+PISTHA NUT 1KG,0
+PISTHACHIO 1KG,0
+PISTHACHIO HALF KG,0
+PLUM CAKE,0
+PRALAIN RED 1KG,0
+PRALAIN RED HALF KG,0
+PURPLE VELVET 1KG,0
+PURPLE VELVET HALF KG,0
+RAFFAELO 1KG,0
+Rainbow cake 1kg,0
+Red bee cake 1kg,1
+Red bee cake Half Kg,1
+Red velvet cake 1kg,1
+Red velvet cake Half kg,2
+Redcho cake 1kg,1
+Redcho cake Half kg,1
+Royal pista nut 1kg,0
+Royal pista nut half kg,0
+Royal truffle cake 1kg,1
+ROYAL TRUFFLE HALF KG,2
+STRAWBERRY 1 KG,0
+STRAWBERRY HALF KG,0
+TENDER COCONUT 1KG,0
+Truffle silky cake 1kg,0
+Truffle silky cake Half kg,0
+VANILA CAKE 1KG,1
+VANILA CAKE HALF KG,1
+White forest 1kg,1
+White forest Half kg,2
+White truffle cake 1kg,0
+White truffle cake Half kg,1
+White vancho 1kg,3
+White vancho Half kg,4
+GALAXY RS.90,0
+DIARY MILK FAMILYPACK RS.130,0
+KITKAT RS,70,0
+DIARYMILK BITES RS.75,0
+DIARY MILK HEARTBLUSH RS.335,0
+GALAXY RS.80,0
+GALAXY FRUIT NUT RS.80,0
+DIARY MILK HAZELNUT RS.75,0
+DIARY MILK SILK ROAST ALMOND RS.195,0
+DIARY MILK SILK 180,0
+DIARY MILK  FRUIT AND NUT 195,0
+CARAMEL CAKE 1KG ,0
+CARAMEL CAKE HALF KG,0
+FUDGE AND NUT HALF KG,0
+,0
+,0
+,0
